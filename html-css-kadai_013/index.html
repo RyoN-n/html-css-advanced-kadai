@@ -10,7 +10,7 @@
     <!-- ヘッダー -->
     <header>
       <!-- ロゴ -->
-      <img src="images/logo.png" alt="ロゴ">
+      <a href="index.html" id="logo"><img src="images/logo.png" alt="トップページに戻る"></a>
 
       <!-- pc用ナビゲーション -->
       <nav id="nav-pc">
@@ -29,15 +29,19 @@
         <a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display='none'">CONCEPT</a>
         <a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display='none'">PRODUCT</a>
         <a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display='none'">CONTACT</a>
-
       </nav>
     </header>
 
     <main>
       <article>
-        <a href="index.html" id="logo-sp"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
-        <p>自家焙煎コーヒーが買えるお店</p>
-        <img src="images/main-image.jpg" alt="メインビジュアル">
+        <!-- メインビジュアル -->
+        <section id="main-visual">
+          <div id="main-message">
+            <h1>Organic Cafe</h1>
+            <p>自家焙煎コーヒーが買えるお店</p>
+          </div>
+          <img src="images/main-image.jpg" alt="コーヒーをハンドドリップで淹れる画像">
+        </section>
       </article>
     </main>
   </body>
