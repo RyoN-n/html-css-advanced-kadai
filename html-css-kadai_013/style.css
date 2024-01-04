@@ -91,6 +91,7 @@ p{
 
   /* スマホ用ナビゲーション */
   #nav-sp{
+    display: none;
     background-color: #ce933e;
     position: absolute;
     left: 0;
